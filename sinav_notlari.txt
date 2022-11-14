@@ -1,0 +1,4 @@
+İlker Özmen:60,70,80
+Saliha Özmen:100,95,90
+Zübeyde Özmen:50,60,70
+Halil Özmen:80,40,70
