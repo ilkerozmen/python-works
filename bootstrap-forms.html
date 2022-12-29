@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+    crossorigin="anonymous">
+    
+    <title>Typography</title>
+    <style>
+
+    </style>
+  </head>
+  
+  <body class="w-75 mx-auto my-4">
+    
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter Name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter E-mail">
+            <small class="form-text text-muted">
+                Please enter a correct email
+            </small>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter Password">
+        </div>
+
+        <div>
+            <label for="city">City</label>
+            <select name="city" id="city" class="form-control">
+                <option value="0">Bursa</option>
+                <option value="1">Ankara</option>
+                <option value="2">İstanbul</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="10" rows="5" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <legend>Hobies</legend>
+            
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox"> Running
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox"> Football
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox"> Reading
+                </label>
+            </div>
+
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="ch">
+            <label class="custom-control-label" for="ch">Check</label>
+        </div>
+
+        <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="rd">
+            <label class="custom-control-label" for="rd">Radio</label>
+        </div>
+
+        <div>
+            <div class="form-check form-check-inline">          <!--https://getbootstrap.com/docs/5.2/forms/checks-radios/-->
+                <input type="radio" class="form-check-input" id="cr1" name="example">
+                <label class="form-check-label" for="cr1">Custom Radio 1</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="cr2" name="example">
+                <label class="form-check-label" for="cr2">Custom Radio 2</label>
+            </div>
+        </div>
+
+        <div class="input-group mb-3">       <!--https://getbootstrap.com/docs/5.2/forms/input-group/-->
+            <input type="text" class="form-control" placeholder="G-mail" aria-label="G-mail" aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1">@gmail.com</span>
+        </div>
+
+        <label for="basic-url" class="form-label">Your vanity URL</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">https://ilkerozmen.com/</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+
+        <div class="clearfix mt-4">
+            <div class="w-50 float-start">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="Name" class="form-control" placeholder="Enter Name">
+                </div>
+            </div>
+
+            <div class="w-50 float-start ps-2">
+                <div class="form-group">
+                    <label for="name">Surname</label>
+                    <input type="text" id="surname" class="form-control" placeholder="Enter Surname">
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix mt-4">
+            <div class="w-50 float-start">
+                <div class="form-group">
+                    <label for="Age">Age</label>
+                    <input type="text" id="Age" class="form-control" placeholder="Enter Age">
+                </div>
+            </div>
+
+            <div class="w-50 float-start ps-2">
+                <div class="form-group">
+                    <label for="City">City</label>
+                    <input type="text" id="City" class="form-control" placeholder="Enter City">
+                </div>
+            </div>
+        </div>
+        
+    </form>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous"></script>
+
+  </body>
+  
+</html>
